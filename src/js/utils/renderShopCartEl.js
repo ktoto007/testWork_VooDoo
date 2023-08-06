@@ -30,7 +30,7 @@ function renderShopCartEl() {
       product.id
     } class=" p-[4px] p-[4px]"">
       <svg class=" w-[24px] h-[24px]">
-        <use href="./src/images/symbol-defs.svg#delete-bin">
+        <use href="./src/images/symbol-defs.svg#delete-bin ">
       </use></svg>
     </button>
     </li>`;
