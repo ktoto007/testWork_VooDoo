@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>TestWork_VooDoo</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link href="./src/css/index.css" rel="stylesheet" />
 
     <script type="module" src="./src/index.js"></script>
-    <script type="module" src="./js/src//utils/C-ElProductInfo.js"></script>
+    <script type="module" src="./src/js/utils/C-ElProductInfo.js"></script>
   </head>
-  <body>
+  <body class="font-main">
     <header
       class="flex p-[24px] bg-lightSand items-center justify-between border border-b-black big:items-start big:py-[48px] big:px-[120px]"
     >
@@ -31,7 +37,7 @@
         </button>
         <a
           href="./index.html"
-          class="bg-black rounded text-white pt-[12px] pb-[9px] px-[13px]"
+          class="bg-black rounded text-white pt-[12px] pb-[9px] px-[13px] font-bold text-[14px] big:text-[20px]"
           >sign up
         </a>
       </div>
@@ -45,8 +51,10 @@
           <svg class="w-[24px] h-[24px] mr-[7px]">
             <use href="./src/images/symbol-defs.svg#alert-circle"></use>
           </svg>
-          <p class="text-white">ALPHA</p>
-          <p class="text-white hidden big:block big:ml-[48px]">
+          <p class="text-white font-bold text-[16px]">ALPHA</p>
+          <p
+            class="text-white hidden big:block big:ml-[48px] font-medium text-[14px]"
+          >
             Important info regarding our service
           </p>
         </div>
@@ -66,23 +74,23 @@
       <ul id="buttonsPages" class="flex gap-[10px] justify-center"></ul>
     </main>
 
-    <footer class="p-[48px] big:px-[120px] big:py-[84px]">
+    <footer class="p-[48px] big:px-[120px] big:py-[84px] font-footer">
       <div class="uppercase font-bold big:flex big:justify-around">
         <svg class="w-[82px] h-[82px] hidden big:block">
           <use href="./src/images/symbol-defs.svg#Logomark"></use>
         </svg>
-        <ul class="mb-[48px]">
+        <ul class="mb-[48px] font-bold text-[14px]">
           <li><a href="">faq</a></li>
           <li><a href="">returns</a></li>
           <li><a href="">contacts</a></li>
         </ul>
-        <ul class="mb-[48px]">
+        <ul class="mb-[48px] font-bold text-[14px]">
           <li><a href="">terms & condition</a></li>
           <li><a href="">privasy polise</a></li>
           <li><a href="">cookie policy</a></li>
           <li><a href="">cookie setings</a></li>
         </ul>
-        <ul class="mb-[48px]">
+        <ul class="mb-[48px] font-bold text-[14px]">
           <li><a href="">about voodoo</a></li>
           <li><a href="">career</a></li>
           <li><a href="">facebook</a></li>

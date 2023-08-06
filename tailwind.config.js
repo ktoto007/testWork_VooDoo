@@ -12,6 +12,10 @@ module.exports = {
         modalBG: "#1E1E1E",
         backdrop: "rgba(0, 0, 0, 0.2)",
       },
+      fontFamily: {
+        main: ["Space Grotesk", "sans-serif"],
+        footer: ["Space Mono", "monospace"],
+      },
     },
   },
   plugins: [],

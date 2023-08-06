@@ -2171,6 +2171,22 @@ video {
   vertical-align: super;
 }
 
+.font-footer {
+  font-family: Space Mono, monospace;
+}
+
+.font-main {
+  font-family: Space Grotesk, sans-serif;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -2178,6 +2194,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .uppercase {
@@ -2782,5 +2802,9 @@ video {
 
   .big\:pt-\[104px\] {
     padding-top: 104px;
+  }
+
+  .big\:text-\[20px\] {
+    font-size: 20px;
   }
 }

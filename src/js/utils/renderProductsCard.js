@@ -8,19 +8,19 @@ function renderProductsCard(products) {
               }" alt="${product.title}" data-name="img" data-id="${
         product.id
       }" >
-              <div class="flex justify-between text-sm mb-[13px] ">
+              <div class="flex justify-between text-sm mb-[13px]  text-[14px] ">
                   <div class="font-bold">
                       <p>${product.title}</p>
                       <p>${product.variants[0].price}</p>
                   </div>    
                   <div>
-                      <p>Condition</p>
+                      <p class="font-medium">Condition</p>
                       <p>Slightly used</p>
                   </div>
               </div>    
               <button type="button" id="${
                 product.id
-              }" class="py-[16px] bg-black text-white rounded w-full">Add to cart</button>
+              }" class="py-[16px] bg-black text-white rounded w-full font-bold text-[14px]">Add to cart</button>
           </li>
           `;
     })
