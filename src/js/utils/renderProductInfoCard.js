@@ -5,7 +5,7 @@ function renderProductInfoCard(product) {
       <h2 slot="title" class="mb-[20px]" >${product.title}</h2>
         <button slot="close-btn" id="productInfoClose" type="button" class="">
           <svg class=" w-[24px] h-[24px]">
-            <use href="./images/symbol-defs.svg#close-line">
+            <use href="./src/images/symbol-defs.svg#close-line">
           </use></svg>
         </button>
       </div>
